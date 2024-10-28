@@ -1,0 +1,30 @@
+.lent {
+    background-color: black;
+    height: 5rem;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    float: right;
+    margin-right: 3rem;
+}
+
+.but button {
+    font-size: 1.2rem;
+    background: #ffffff00;
+    border: #ffffff00;
+    color: #ffffff;
+    margin: 0rem 0.5rem;
+    transition: 0.5s;
+}
+
+.but {
+    margin-left: 1rem;
+}
+
+.but button:hover {
+    color: #ffaaaa;
+    font-size: 1.3rem;
+}

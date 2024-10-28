@@ -1,0 +1,22 @@
+.liner{
+    background-color: azure;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.contentData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.LinerImage{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+}
+
+
+.contentData p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}

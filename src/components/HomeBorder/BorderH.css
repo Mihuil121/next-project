@@ -1,0 +1,80 @@
+.HomeBorder {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.bord .bord1 {
+    border-radius: 2rem;
+    margin-top: 5rem;
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.next {
+    border: solid #ffffff00;
+    background-color: #8f8f8fbe;
+    color: aliceblue;
+    border-radius: 12rem;
+    margin: 0px 1rem;
+    cursor: pointer;
+    transition: width 0.3s ease, transform 0.3s ease;
+}
+
+.next:hover{
+    width: 4rem;
+    transform: scale(1.2); 
+}
+
+.next2 {
+    border: solid #ffffff00;
+    background-color: #8f8f8f00;
+    color: rgb(68, 68, 68);
+    border-radius: 12rem;
+    margin: 0px 1rem;
+}
+
+.buttonColor {
+    background-color: #ffffff;
+    width: 20%;
+    height: 2rem;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    position: relative;
+    justify-content: center;
+    top: 20px;
+}
+
+.borderText {
+    width: 90%;
+}
+
+.divFlexDowen {
+    background-color: #ffffff;
+    border-radius: 0.2rem;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    width: 20rem;
+}
+
+.divFlexDowen1{
+    background-color: #ffffff;
+    border-radius: 0.2rem;
+    margin-top: 15rem;
+    margin-left: 1rem;
+    width: 50rem;
+}
+
+.fontPBorder {
+    font-size: 1rem;
+    margin-top: 11rem;
+    display: flex;
+    justify-content: center;
+}
