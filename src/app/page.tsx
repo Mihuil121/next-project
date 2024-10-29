@@ -1,14 +1,11 @@
-import HomeOne from "./home/Home";
-import HomeBorder, { THomeBorder } from '@/components/HomeBorder/HomeBorder';
+import HomeOne from './home/Home';
 
-const Home: React.FC<THomeBorder> = (props) => {
+const PageComponent: React.FC = () => {
   return (
     <div>
       <HomeOne />
-     
     </div>
   );
-}
+};
 
-export default Home;
-
+export default PageComponent;

@@ -19,7 +19,7 @@ const outFontP: NextFont = Nunito({
 
 
 
-const HomeOne: React.FC<Idata> = () => {
+const HomeOne: React.FC = () => {
 
     return (
         <div>
