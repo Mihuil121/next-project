@@ -13,7 +13,7 @@ const roboto = Roboto({
 
 const Hader: React.FC = () => {
     return (
-        <div>
+        <div className="fixed">
             <div className="lent">
                 <div className="button-Head">
                     <div className="text">

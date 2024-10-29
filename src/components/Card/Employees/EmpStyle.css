@@ -1,0 +1,42 @@
+.Employees {
+    background-color: rgb(221, 221, 221);
+    height: 25rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.Employees-board {
+    margin-left: 2rem;
+    padding: 1rem;
+
+}
+
+.Employees-text {
+    font-size: 1rem;
+    border: 1px solid #000000;
+    width: 10rem;
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.Employees-img {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.imgcard{
+    width: 4rem;
+}
+
+.imgE {
+    width: 5rem;
+    border-radius: 12rem;
+    height: 5rem;
+
+}
+
+.Hire{
+    font-size: 3rem;
+    margin-top: 3rem;
+}

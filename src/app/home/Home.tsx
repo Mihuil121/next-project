@@ -5,13 +5,14 @@ import Liner from '@/components/HomeBorder/Liner/Liner';
 import { data, Idata } from '@/components/HomeBorder/Liner/dataMan';
 import { InferGetStaticPropsType } from 'next';
 import { NextFont } from 'next/dist/compiled/@next/font';
+import Information from '@/app/serverComponents/Hader/Information/Information';
 
-const outFont:NextFont = Nunito({
+const outFont: NextFont = Nunito({
     subsets: ['latin'],
     weight: '500',
 });
 
-const outFontP:NextFont = Nunito({
+const outFontP: NextFont = Nunito({
     subsets: ['latin'],
     weight: '200',
 });
@@ -34,6 +35,9 @@ const HomeOne: React.FC<Idata> = () => {
                 <Swipers />
                 <div className="dataOne">
                     <Liner dataOne={data} />
+                    <div className="Information">
+                        <Information />
+                    </div>
                 </div>
             </div>
         </div>
