@@ -2,7 +2,7 @@
     background-color: rgb(221, 221, 221);
     height: 25rem;
     border-radius: 1rem;
-    margin-top: 2rem;
+    width: 20rem;
 }
 
 .Employees-board {
@@ -17,7 +17,6 @@
     width: 10rem;
     text-align: center;
     border-radius: 1rem;
-
 }
 
 .Employees-img {
@@ -33,10 +32,10 @@
     width: 5rem;
     border-radius: 12rem;
     height: 5rem;
-
 }
 
 .Hire{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 3rem;
+    width: 20rem;
 }

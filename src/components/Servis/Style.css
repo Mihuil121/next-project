@@ -1,0 +1,63 @@
+body {
+    overflow-x: hidden;
+}
+
+.widthServise {
+    width: 150rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12rem;
+}
+
+.cardDiv {
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    border-radius: 1rem;
+    background: url('../../Img/backgraund/ggs.jpeg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.card-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    text-align: center;
+}
+
+.card-board p{
+    color: #000000;
+}
+
+.buttonServise {
+    display: flex;
+}
+
+.buttonServise button {
+    background: #ffffff;
+    border: #000000 solid 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.HiArrowSmLeft,
+.HiArrowSmRight {
+    width: 2rem;
+    height: 2rem;
+
+
+}
+
+.marginLeft {
+    margin-left: 5rem;
+
+}

@@ -16,7 +16,7 @@ export type THomeBorder = {
     texts: Itext[];
 };
 
-const LatoF:NextFont = Lato({
+const LatoF: NextFont = Lato({
     subsets: ['latin'],
     weight: '300'
 })
@@ -41,7 +41,7 @@ const HomeBorder: React.FC<THomeBorder> = ({ images, texts }) => {
         <div>
             <div className="HomeBorder">
                 <Swiper
-                    onSwiper={(swiper) => {
+                    onSwiper={(swiper:SwiperType) => {
                         swipRef.current = swiper;
                     }}
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -55,13 +55,13 @@ const HomeBorder: React.FC<THomeBorder> = ({ images, texts }) => {
                                     <div className="border">
                                         <div style={{ marginTop: '0rem' }}>
                                             <div className="buttonColor">
-                                                <button className={index === 0 ? 'next2' : 'next'} onClick={() => useClickPrev()} >prev  ⇠ </button>
-                                                <button className={index === 0 ? 'next' : 'next2'} onClick={() => useClickNext()}>next  ⇢  </button>
+                                                <button className={index === 0 ? 'next2' : 'next'} onClick={() => useClickPrev()} >⇠ prev</button>
+                                                <button className={index === 0 ? 'next' : 'next2'} onClick={() => useClickNext()}>next  ⇢</button>
                                             </div>
                                         </div>
                                         <div className="borderText">
                                             <div className={LatoF.className}>
-                                                <div className={`${index === 0?"divFlexDowen":"divFlexDowen1"}`} >
+                                                <div className={`${index === 0 ? "divFlexDowen" : "divFlexDowen1"}`} >
                                                     <div className="top">
                                                         <p className='fontPBorder'>
                                                             {texts[indexUse]?.text}

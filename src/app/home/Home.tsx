@@ -5,7 +5,8 @@ import Liner from '@/components/HomeBorder/Liner/Liner';
 import { data, Idata } from '@/components/HomeBorder/Liner/dataMan';
 import { InferGetStaticPropsType } from 'next';
 import { NextFont } from 'next/dist/compiled/@next/font';
-import Information from '@/app/serverComponents/Hader/Information/Information';
+import Information from '@/app/serverComponents/Information/Information';
+import Bordar from '../serverComponents/ServiseBordar/Bordar';
 
 const outFont: NextFont = Nunito({
     subsets: ['latin'],
@@ -37,6 +38,7 @@ const HomeOne: React.FC = () => {
                     <Liner dataOne={data} />
                     <div className="Information">
                         <Information />
+                        <Bordar />
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import { Nunito } from 'next/font/google'
 import { NextFont } from 'next/dist/compiled/@next/font'
 import './InformStyle.css'
 import Employees from '@/components/Card/Employees/Employees'
+import Force from '@/components/Card/Force/Force'
 
 const NunitoFont: NextFont = Nunito({
     subsets: ['latin'],
@@ -29,8 +30,12 @@ const Information = () => {
                             </p>
                         </div>
                     </div>
-                    <Employees/>
+                    <div className="FlexI">
+                        <Employees />
+                        <Force />
+                    </div>
                 </div>
+                
             </div>
         </div>
     )

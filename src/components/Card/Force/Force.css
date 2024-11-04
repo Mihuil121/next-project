@@ -1,0 +1,25 @@
+.force {
+    background: url('../../../Img/piople/Designer10.jpeg');
+    height: 92%;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    margin-left: 1.5rem;
+}
+
+.force-data{
+    margin-left: 2rem;
+}
+
+.force-blok {
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    text-align: center;
+    width: 10rem;
+}
+
+.Contraction {
+    font-size: 3rem;
+    margin-top: 12.5rem;
+}

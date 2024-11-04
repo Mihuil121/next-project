@@ -1,3 +1,6 @@
+.QuicklyFlex{
+    display: flex;
+}
 .textQ p {
     font-size: 3rem;
 }
@@ -7,6 +10,11 @@
 }
 
 .text-Q{
-    width: 25%;
+
     margin-left: 2rem;
+}
+
+.FlexI{
+    display: flex;
+    margin-top: 2rem;
 }
