@@ -19,18 +19,22 @@ const Hader: React.FC = () => {
                     <div className="text">
                         <div className="but">
                             <div className="Img-had">
-                                <RiHome3Line style={{ color: 'wheat' }} />
-                                <button className={roboto.className}>
-                                    Главная
-                                </button>
+                                <Link href='/'>
+                                    <RiHome3Line style={{ color: 'wheat' }} />
+                                    <button className={roboto.className}>
+                                        Главная
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                         <div className="but" >
                             <div className="">
-                                <LuSearch style={{ color: 'wheat' }} className="Img-had" />
-                                <button className={roboto.className}>
-                                    Поиск
-                                </button>
+                                <Link href="../../Serch">
+                                    <LuSearch style={{ color: 'wheat' }} className="Img-had" />
+                                    <button className={roboto.className}>
+                                        Поиск
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                         <div className="but" >
