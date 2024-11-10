@@ -4,7 +4,7 @@
 }
 
 .filter {
-    margin-right: 2rem;
+    position: fixed;
 }
 
 .labelP {
@@ -12,10 +12,22 @@
     align-items: center;
 }
 
+.select{
+    background: #70a9ff;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid #00000000;
+    width: 12rem;
+}
+
 .cardC {
     display: flex;
     justify-content: center;
     flex: 1;
+    margin-left: 10rem;
 }
 
 .cardP {
@@ -30,6 +42,10 @@
     height: 30vh;
     align-items: center;
     margin-left: 1rem;
+}
+
+.FontN{
+    font-size: 1.5rem;
 }
 
 .informClass {
