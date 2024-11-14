@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+
+.imge img {
+    width: 32rem;
+    height: 32rem;
+    border-radius: 1rem;
+}
+
+.contentP {
+    margin-left: 5rem;
+}
+
+.content-text {
+    font-size: 2rem;
+
+}
+
+.description {
+    background: #a5a5a59c;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.description-p {
+    width: 130vh;
+    margin: 1rem 0rem;
+
+}
+
+.Description {
+    font-size: 2rem;
+}
