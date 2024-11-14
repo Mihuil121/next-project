@@ -91,7 +91,7 @@ const CardPiople: React.FC = () => {
                         return (
 
                             <div className="cardBack" key={index}>
-                                <Link href={`/serch/${index}`}>
+                                <Link href={`/Serch/${index}`}>
                                     <div
                                         className="cardui"
                                         style={{

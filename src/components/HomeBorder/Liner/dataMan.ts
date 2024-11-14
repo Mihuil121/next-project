@@ -25,273 +25,215 @@ export interface Idata{
 export const data: Idata[] = [
   {
     fileName: "portfolio_anna_sidorova.pdf",
-    description: "Портфолио UI/UX-дизайнера с проектами мобильных и веб-приложений",
+    description: "Портфолио UI/UX-дизайнера с проектами мобильных и веб-приложений. Имею опыт работы с различными клиентами, создавая интуитивно понятные интерфейсы и улучшая пользовательский опыт. Участвовала в разработке нескольких успешных приложений, которые получили положительные отзывы пользователей.",
     firstName: "Анна",
     lastName: "Сидорова",
     position: "UI/UX Designer",
     age: 27,
-    image:photo1
+    image: photo1
   },
   {
-    fileName: "project_proposal_ivan_ivanov.docx",
-    description: "Предложение нового проекта, включающее план развития и стратегии",
+    fileName: "portfolio_ivan_petrov.pdf",
+    description: "Опытный веб-разработчик с более чем 5-летним стажем в создании адаптивных сайтов. Работал над проектами различной сложности, включая интернет-магазины и корпоративные сайты. Уверенно владею современными технологиями и инструментами, что позволяет мне создавать высококачественные и производительные веб-приложения.",
     firstName: "Иван",
-    lastName: "Иванов",
-    position: "Project Manager",
-    age: 40,
-    image:photo1
-  },
-  {
-    fileName: "code_samples_maria_kuznetsova.zip",
-    description: "Архив с примерами кода на Node.js и Python для бэкенд-разработки",
-    firstName: "Мария",
-    lastName: "Кузнецова",
-    position: "Backend Developer",
-    age: 29,
-    image:photo11
-  },
-  {
-    fileName: "resume_alexey_petrov.docx",
-    description: "Резюме на должность старшего фронтенд-разработчика с 7-летним опытом",
-    firstName: "Алексей",
     lastName: "Петров",
-    position: "Senior Frontend Developer",
-    age: 32,
-    image:photo1
-  },
-  {
-    fileName: "data_analysis_darya_fedorova.xlsx",
-    description: "Отчёт по анализу данных для компании",
-    firstName: "Дарья",
-    lastName: "Федорова",
-    position: "Data Analyst",
-    age: 26,
-    image:photo1
-  },
-  {
-    fileName: "devops_plan_sergey_smirnov.pdf",
-    description: "План развития инфраструктуры DevOps",
-    firstName: "Сергей",
-    lastName: "Смирнов",
-    position: "DevOps Engineer",
-    age: 34,
-    image:photo2
-  },
-  {
-    fileName: "qa_checklist_victoria_lebedeva.docx",
-    description: "Чек-лист для тестирования веб-приложения",
-    firstName: "Виктория",
-    lastName: "Лебедева",
-    position: "QA Specialist",
-    age: 28,
-    image:photo2
-  },
-  {
-    fileName: "product_overview_nikolay_morozov.pptx",
-    description: "Обзор продукта и стратегия маркетинга",
-    firstName: "Николай",
-    lastName: "Морозов",
-    position: "Product Manager",
-    age: 35,
-    image:photo2
-  },
-  {
-    fileName: "scrum_guide_oleg_popov.pdf",
-    description: "Руководство по Scrum для команды разработки",
-    firstName: "Олег",
-    lastName: "Попов",
-    position: "Scrum Master",
-    age: 33,
-    image:photo2
-  },
-  {
-    fileName: "hr_guide_ekaterina_vasileva.docx",
-    description: "Руководство по найму и адаптации персонала",
-    firstName: "Екатерина",
-    lastName: "Васильева",
-    position: "HR Specialist",
+    position: "Web Developer",
     age: 30,
-    image:photo3
+    image: photo3
   },
   {
-    fileName: "marketing_plan_andrey_kuzmin.pdf",
-    description: "План по продвижению продукта на рынке",
-    firstName: "Андрей",
-    lastName: "Кузьмин",
-    position: "Marketing Specialist",
-    age: 31,
-    image:photo3
-  },
-  {
-    fileName: "customer_analysis_mikhail_romanov.xlsx",
-    description: "Анализ поведения клиентов и их предпочтений",
-    firstName: "Михаил",
-    lastName: "Романов",
-    position: "Business Analyst",
-    age: 36,
-    image:photo3
-  },
-  {
-    fileName: "project_schedule_valeria_grigorieva.xlsx",
-    description: "График выполнения задач для проекта",
-    firstName: "Валерия",
-    lastName: "Григорьева",
-    position: "Project Coordinator",
-    age: 29,
-    image:photo10
-  },
-  {
-    fileName: "test_cases_artem_golubev.docx",
-    description: "Описание тест-кейсов для новой версии продукта",
-    firstName: "Артем",
-    lastName: "Голубев",
-    position: "QA Engineer",
-    age: 27,
-    image:photo4
-  },
-  {
-    fileName: "design_mockups_olga_petrova.pdf",
-    description: "Макеты страниц для веб-приложения",
-    firstName: "Ольга",
-    lastName: "Петрова",
-    position: "Web Designer",
+    fileName: "portfolio_elena_ivanova.pdf",
+    description: "Специалист по графическому дизайну с опытом работы в крупных рекламных агентствах. Создавала визуальные концепции для различных брендов, разрабатывала рекламные материалы и участвовала в создании уникальных логотипов. Мой опыт позволяет мне находить креативные решения для любых задач.",
+    firstName: "Елена",
+    lastName: "Иванова",
+    position: "Graphic Designer",
     age: 25,
-    image:photo9
+    image: photo2
   },
   {
-    fileName: "backend_docs_alexey_zhukov.pdf",
-    description: "Документация для API бэкенда",
+    fileName: "portfolio_dmitry_smirnov.pdf",
+    description: "Frontend-разработчик с глубокими знаниями JavaScript и React, участвовал в нескольких крупных проектах. Мой опыт включает создание отзывчивых интерфейсов и оптимизацию производительности приложений. Я стремлюсь к постоянному обучению и использованию новых технологий для улучшения качества кода.",
+    firstName: "Дмитрий",
+    lastName: "Смирнов",
+    position: "Frontend Developer",
+    age: 28,
+    image: photo6
+  },
+  {
+    fileName: "portfolio_olga_kuznetsova.pdf",
+    description: "Специалист по цифровому маркетингу с успешным опытом работы в SEO и SMM. Разрабатывала стратегии продвижения для различных компаний, что позволило значительно увеличить их видимость в интернете. Мой опыт включает анализ данных и оптимизацию рекламных кампаний для достижения максимальных результатов.",
+    firstName: "Ольга",
+    lastName: "Кузнецова",
+    position: "Digital Marketing Specialist",
+    age: 29,
+    image: photo10
+  },
+  {
+    fileName: "portfolio_alexey_novikov.pdf",
+    description: "Backend-разработчик с опытом работы с Node.js и Python, создавал высоконагруженные системы. Мой опыт включает проектирование архитектуры приложений и работу с базами данных. Я стремлюсь к созданию надежных и масштабируемых решений, которые отвечают требованиям бизнеса.",
     firstName: "Алексей",
-    lastName: "Жуков",
+    lastName: "Новиков",
+    position: "Backend Developer",
+    age: 32,
+    image: photo7
+  },
+  {
+    fileName: "portfolio_maria_sokolova.pdf",
+    description: "UI-дизайнер с акцентом на создание интуитивно понятных интерфейсов для мобильных приложений. Мой опыт включает работу с различными платформами и создание дизайнов, которые улучшают взаимодействие пользователей с продуктом. Я всегда стремлюсь к тому, чтобы мои работы были не только красивыми, но и функциональными.",
+    firstName: "Мария",
+    lastName: "Соколова",
+    position: "UI Designer",
+    age: 26,
+    image: photo9
+  }, {
+    fileName: "portfolio_nikita_belov.pdf",
+    description: "Молодой и амбициозный графический дизайнер, который стремится создавать уникальные визуальные решения. Имею опыт работы с различными проектами, включая брендинг и рекламные кампании. Моя цель — создавать дизайн, который будет не только красивым, но и эффективным.",
+    firstName: "Никита",
+    lastName: "Белов",
+    position: "Graphic Designer",
+    age: 26,
+    image: photo7
+  },
+  {
+    fileName: "portfolio_katerina_smirnova.pdf",
+    description: "Специалист по веб-дизайну с акцентом на создание удобных и привлекательных интерфейсов. Работала над проектами для стартапов и крупных компаний, что позволило мне развить навыки в области UX/UI. Я всегда стремлюсь к тому, чтобы мои работы соответствовали современным трендам.",
+    firstName: "Катерина",
+    lastName: "Смирнова",
+    position: "Web Designer",
+    age: 29,
+    image: photo2
+  },
+  {
+    fileName: "portfolio_maxim_ivanov.pdf",
+    description: "Опытный разработчик программного обеспечения с более чем 6-летним стажем. Мой опыт включает работу с различными языками программирования и фреймворками. Я увлечен созданием эффективных и надежных приложений, которые решают реальные проблемы пользователей.",
+    firstName: "Максим",
+    lastName: "Иванов",
+    position: "Software Developer",
+    age: 31,
+    image: photo3
+  },
+  {
+    fileName: "portfolio_olga_kovaleva.pdf",
+    description: "Специалист по контент-маркетингу с опытом работы в создании и продвижении контента для различных платформ. Моя работа включает написание статей, создание видеоконтента и управление социальными сетями. Я стремлюсь к тому, чтобы каждый проект был успешным и приносил результаты.",
+    firstName: "Ольга",
+    lastName: "Ковалёва",
+    position: "Content Marketing Specialist",
+    age: 28,
+    image: photo10
+  },
+  {
+    fileName: "portfolio_andrey_sokolov.pdf",
+    description: "Backend-разработчик с опытом работы в создании высоконагруженных систем. Я специализируюсь на разработке API и интеграции с различными сервисами. Мой опыт позволяет мне создавать надежные и масштабируемые решения для бизнеса.",
+    firstName: "Андрей",
+    lastName: "Соколов",
+    position: "Backend Developer",
+    age: 34,
+    image: photo6
+  },
+  {
+    fileName: "portfolio_tatyana_moroz.pdf",
+    description: "UI/UX-дизайнер с опытом работы в стартапах и крупных компаниях. Я создаю интуитивно понятные интерфейсы и провожу исследования пользователей для улучшения их опыта. Мой подход основан на анализе данных и креативном мышлении.",
+    firstName: "Татьяна",
+    lastName: "Мороз",
+    position: "UI/UX Designer",
+    age: 27,
+    image: photo9
+  },
+  {
+    fileName: "portfolio_vladimir_fedorov.pdf",
+    description: "Специалист по цифровому маркетингу с акцентом на SEO и контекстную рекламу. Я разрабатываю стратегии, которые помогают компаниям увеличивать свою видимость в интернете и привлекать новых клиентов. Мой опыт включает анализ данных и оптимизацию рекламных кампаний.",
+    firstName: "Владимир",
+    lastName: "Фёдоров",
+    position: "Digital Marketing Specialist",
+    age: 33,
+    image: photo8
+  },
+  {
+    fileName: "portfolio_anna_kuznetsova.pdf",
+    description: "Специалист по проектному управлению с опытом работы в IT. Я успешно управляю командами и проектами, обеспечивая их выполнение в срок и в рамках бюджета. Мой опыт включает работу с различными методологиями, такими как Agile и Scrum.",
+    firstName: "Анна",
+    lastName: "Кузнецова",
+    position: "Project Manager",
+    age: 30,
+    image: photo11
+  }, {
+    fileName: "portfolio_roman_ivanov.pdf",
+    description: "Молодой и креативный веб-разработчик, который увлечен созданием современных и функциональных сайтов. Имею опыт работы с различными фреймворками и языками программирования. Моя цель — создавать веб-приложения, которые будут удобны и полезны для пользователей.",
+    firstName: "Роман",
+    lastName: "Иванов",
+    position: "Web Developer",
+    age: 26,
+    image: photo3
+  },
+  {
+    fileName: "portfolio_daria_smirnova.pdf",
+    description: "Специалист по графическому дизайну с опытом работы в создании рекламных материалов и брендинга. Я стремлюсь к тому, чтобы каждый проект был уникальным и отражал индивидуальность клиента. Мой опыт включает работу с различными инструментами дизайна.",
+    firstName: "Дарья",
+    lastName: "Смирнова",
+    position: "Graphic Designer",
+    age: 28,
+    image: photo2
+  },
+  {
+    fileName: "portfolio_alexey_belov.pdf",
+    description: "Опытный разработчик программного обеспечения с акцентом на создание высоконагруженных систем. Я работал над проектами, которые требуют высокой производительности и надежности. Мой опыт включает работу с различными языками программирования и архитектурными подходами.",
+    firstName: "Алексей",
+    lastName: "Белов",
+    position: "Software Developer",
+    age: 32,
+    image: photo7
+  }, {
+    fileName: "portfolio_ekaterina_nikolaeva.pdf",
+    description: "Креативный веб-дизайнер с опытом работы в создании уникальных интерфейсов для мобильных и веб-приложений. Я стремлюсь к тому, чтобы каждый проект был не только красивым, но и функциональным, обеспечивая отличный пользовательский опыт.",
+    firstName: "Екатерина",
+    lastName: "Николаева",
+    position: "Web Designer",
+    age: 29,
+    image: photo2
+  },
+  {
+    fileName: "portfolio_viktor_sokolov.pdf",
+    description: "Специалист по цифровому маркетингу с более чем 5-летним опытом работы в SEO и контент-маркетинге. Я разрабатываю стратегии, которые помогают компаниям увеличивать свою видимость в интернете и привлекать новых клиентов.",
+    firstName: "Виктор",
+    lastName: "Соколов",
+    position: "Digital Marketing Specialist",
+    age: 31,
+    image: photo6
+  },
+  {
+    fileName: "portfolio_lyudmila_kovaleva.pdf",
+    description: "Опытный проектный менеджер с успешным опытом управления командами и проектами в сфере IT. Я обладаю навыками планирования, организации и контроля выполнения проектов, что позволяет мне достигать поставленных целей в срок.",
+    firstName: "Людмила",
+    lastName: "Ковалёва",
+    position: "Project Manager",
+    age: 34,
+    image: photo11
+  },
+  {
+    fileName: "portfolio_anton_morozov.pdf",
+    description: "Frontend-разработчик с глубокими знаниями JavaScript и React. Я участвовал в разработке нескольких крупных проектов, создавая отзывчивые интерфейсы и оптимизируя производительность приложений.",
+    firstName: "Антон",
+    lastName: "Морозов",
+    position: "Frontend Developer",
+    age: 28,
+    image: photo8
+  },
+  {
+    fileName: "portfolio_nina_fedorova.pdf",
+    description: "Специалист по графическому дизайну с опытом работы в создании рекламных материалов и брендинга. Я стремлюсь к тому, чтобы каждый проект был уникальным и отражал индивидуальность клиента.",
+    firstName: "Нина",
+    lastName: "Фёдорова",
+    position: "Graphic Designer",
+    age: 27,
+    image: photo9
+  },
+  {
+    fileName: "portfolio_ivan_kuznetsov.pdf",
+    description: "Backend-разработчик с опытом работы в создании высоконагруженных систем. Я специализируюсь на разработке API и интеграции с различными сервисами, создавая надежные и масштабируемые решения для бизнеса.",
+    firstName: "Иван",
+    lastName: "Кузнецов",
     position: "Backend Developer",
     age: 30,
-    image:photo4
-  },
-  {
-    fileName: "client_feedback_maria_ermakova.docx",
-    description: "Обратная связь от клиентов о продукте",
-    firstName: "Мария",
-    lastName: "Ермакова",
-    position: "Customer Success Manager",
-    age: 28,
-    image:photo4
-  },
-  {
-    fileName: "social_media_content_irina_sokolova.pdf",
-    description: "План публикаций для социальных сетей",
-    firstName: "Ирина",
-    lastName: "Соколова",
-    position: "Social Media Manager",
-    age: 26,
-    image:photo4
-  },
-  {
-    fileName: "financial_report_dmitry_ivanov.xlsx",
-    description: "Финансовый отчёт за квартал",
-    firstName: "Дмитрий",
-    lastName: "Иванов",
-    position: "Financial Analyst",
-    age: 35,
-    image:photo5
-  },
-  {
-    fileName: "training_materials_anna_orlova.pdf",
-    description: "Учебные материалы для новой команды",
-    firstName: "Анна",
-    lastName: "Орлова",
-    position: "Training Specialist",
-    age: 32, 
-    image:photo5
-  },
-  {
-    fileName: "design_system_roman_frolov.pptx",
-    description: "Презентация новой дизайн-системы компании",
-    firstName: "Роман",
-    lastName: "Фролов",
-    position: "Lead Designer",
-    age: 34,
-    image:photo8
-  },
-  {
-    fileName: "user_survey_kirill_novikov.docx",
-    description: "Опрос пользователей о качестве сервиса",
-    firstName: "Кирилл",
-    lastName: "Новиков",
-    position: "User Researcher",
-    age: 29,
-    image:photo5
-  },
-  {
-    fileName: "app_prototype_veronika_tikhonova.pdf",
-    description: "Прототип мобильного приложения",
-    firstName: "Вероника",
-    lastName: "Тихонова",
-    position: "Product Designer",
-    age: 27,
-    image:photo5
-  },
-  {
-    fileName: "legal_docs_alexandra_tarasova.pdf",
-    description: "Юридическая документация проекта",
-    firstName: "Александра",
-    lastName: "Тарасова",
-    position: "Legal Advisor",
-    age: 39,
-    image:photo5
-
-  },
-  {
-    fileName: "product_specs_yuri_soloviev.docx",
-    description: "Технические спецификации для продукта",
-    firstName: "Юрий",
-    lastName: "Соловьев",
-    position: "Technical Writer",
-    age: 31,
-    image:photo10
-  },
-  {
-    fileName: "competitor_analysis_diana_pavlova.xlsx",
-    description: "Анализ конкурентов на рынке",
-    firstName: "Диана",
-    lastName: "Павлова",
-    position: "Market Analyst",
-    age: 28,
-    image:photo6
-  },
-  {
-    fileName: "security_audit_vitaly_ermolov.pdf",
-    description: "Аудит безопасности приложения",
-    firstName: "Виталий",
-    lastName: "Ермолов",
-    position: "Security Specialist",
-    age: 35,
-    image:photo6
-  },
-  {
-    fileName: "client_pitch_evgeniya_ivanova.pptx",
-    description: "Презентация для клиентов о возможностях продукта",
-    firstName: "Евгения",
-    lastName: "Иванова",
-    position: "Sales Manager",
-    age: 33,
-    image:photo6
-  },
-  {
-    fileName: "design_guidelines_vasiliy_smirnov.pdf",
-    description: "Руководство по визуальному стилю компании",
-    firstName: "Василий",
-    lastName: "Смирнов",
-    position: "Art Director",
-    age: 37,
-    image:photo6
-  },
-  {
-    fileName: "customer_profile_nataliya_belova.docx",
-    description: "Описание целевого клиента",
-    firstName: "Наталия",
-    lastName: "Белова",
-    position: "Customer Analyst",
-    age: 29,
-    image:photo7
-  },
+    image: photo3
+  }
 ]

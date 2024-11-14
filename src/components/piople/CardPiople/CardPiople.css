@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.select{
+.select {
     background: #70a9ff;
     font-size: 1rem;
     display: flex;
@@ -37,6 +37,11 @@
     width: 100%;
 }
 
+.cardP a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .inform {
     display: flex;
     height: 30vh;
@@ -44,7 +49,7 @@
     margin-left: 1rem;
 }
 
-.FontN{
+.FontN {
     font-size: 1.5rem;
 }
 
