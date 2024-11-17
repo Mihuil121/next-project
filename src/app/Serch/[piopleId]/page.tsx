@@ -10,7 +10,7 @@ const nuto = Nunito({
 
 export default function Piople({ params }: { params: { piopleId: number } }) {
     const { piopleId } = params;
-    const mane: Idata = data[piopleId];
+    const mane: Idata = data[Number(params.piopleId)];
 
     return (
         <div className={nuto.className}>

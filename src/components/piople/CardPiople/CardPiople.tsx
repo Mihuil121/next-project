@@ -6,6 +6,8 @@ import { Nunito } from 'next/font/google';
 import { useRef, useState } from 'react';
 import Link from 'next/link';
 
+type CardT = Idata & { originalI: number }
+
 const NunitoFont: NextFont = Nunito({
     subsets: ['latin'],
     weight: '600'
@@ -45,10 +47,11 @@ const CardPiople: React.FC = () => {
     };
 
 
-    const filteredData = data.filter(card =>
-        (itemUse.length === 0 || itemUse.includes(card.position)) &&
-        (ageUse.length === 0 || ageUse.includes(card.age))
-    );
+    const filteredData:CardT[] = data.map((card, index: number) => ({ ...card, originalI: index }))
+        .filter(card =>
+            (itemUse.length === 0 || itemUse.includes(card.position)) &&
+            (ageUse.length === 0 || ageUse.includes(card.age))
+        );
 
     return (
         <div className='CardFilter'>
@@ -86,12 +89,11 @@ const CardPiople: React.FC = () => {
             </div>
             <div className="cardC">
                 <div className="cardP">
-                    {filteredData.map((card: Idata, index: number) => {
+                    {filteredData.map((card: CardT, index: number) => {
                         const imageUrl: string = card.image?.src;
                         return (
-
                             <div className="cardBack" key={index}>
-                                <Link href={`/Serch/${index}`}>
+                                <Link href={`/Serch/${card.originalI}`}>
                                     <div
                                         className="cardui"
                                         style={{

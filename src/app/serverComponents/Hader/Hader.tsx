@@ -39,10 +39,12 @@ const Hader: React.FC = () => {
                         </div>
                         <div className="but" >
                             <div className="">
+                                <Link href='../../about'>
                                 <SiAboutdotme style={{ color: 'wheat' }} className="Img-had" />
                                 <button className={roboto.className}>
                                     О нас
                                 </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

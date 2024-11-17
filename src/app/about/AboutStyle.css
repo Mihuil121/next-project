@@ -1,0 +1,43 @@
+.About {
+    margin-top: 2rem;
+
+}
+
+.About-Img-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-we {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.about-content p{
+    font-size: 2rem;
+}
+
+.content-min p{
+    font-size: 1rem;
+}
+.Imgcontent-about img{
+    width: 50rem;
+    height: 30rem;
+    border-radius: 0.5rem ;
+    margin: 3rem;
+}
+
+.about-flex {
+    background-color: #f6f4ef;
+}
+
+.Sponsor{
+    background-color: #fe4d01;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

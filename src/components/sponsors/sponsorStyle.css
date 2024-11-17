@@ -1,0 +1,26 @@
+.sponsorData-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spon-content p {
+    font-size: 3rem;
+    color: aliceblue;
+    margin: 2rem;
+}
+
+.sponsorData-content p {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.sponsorData-content img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.sponsorData {
+    margin: 3rem;
+}

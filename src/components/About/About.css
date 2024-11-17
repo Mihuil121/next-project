@@ -1,0 +1,25 @@
+.abount-component{
+    margin: 2rem;
+}
+
+.content-about {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+
+}
+
+.content-about p {
+    font-size: 2rem;
+}
+
+.content-p-min {
+    width: 45rem;
+    margin-left: 20rem;
+    
+}
+
+.content-p-min p{
+    font-size: 1rem;
+}
