@@ -11,11 +11,12 @@
   "dependencies": {
     "@uiw/react-baidu-map-polygon": "^2.7.2",
     "d3-geo": "^3.1.1",
-    "next": "^14.2.15",
+    "next": "^14.2.18",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.5",
     "react-icons": "^5.3.0",
+    "react-loading": "^2.0.3",
     "react-simple-maps": "^3.0.0",
     "swiper": "^11.1.14",
     "topojson": "^3.0.2"

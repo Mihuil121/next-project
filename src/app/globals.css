@@ -7,3 +7,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.Loding {
+  position: relative;
+  /* или absolute, или fixed */
+  z-index: -1;
+  /* Устанавливаем z-index ниже 0 */
+}

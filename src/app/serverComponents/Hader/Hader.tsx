@@ -5,11 +5,13 @@ import { LuSearch } from "react-icons/lu";
 import './Hader.css'
 import { Roboto } from 'next/font/google'
 import { SiAboutdotme } from "react-icons/si";
+import { NextFont } from "next/dist/compiled/@next/font";
 
-const roboto = Roboto({
+const roboto:NextFont = Roboto({
     subsets: ['latin'],
     weight: '500'
 })
+
 
 const Hader: React.FC = () => {
     return (
