@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Hader from "./serverComponents/Hader/Hader";
+import "./changes.css"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

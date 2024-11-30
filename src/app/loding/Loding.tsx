@@ -12,7 +12,7 @@ const Loding: React.FC = () => {
     return (
         <div>
             <div className="l">
-                <div className="content">
+                <div className="content-p">
                     <div className="loding">
                         <ReactLoading type="spin" color="#000" />
                     </div>

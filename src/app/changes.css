@@ -1,0 +1,166 @@
+@media(max-width:1700px) {
+
+
+    .Information {
+        margin-top: 6.1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .widthServise {
+            width: 100rem;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 8rem;
+        }
+    }
+
+    .text-Q {
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .FlexI {
+        display: flex;
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+
+    .buttonServise {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1536px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .cardDiv {
+        height: 30vh !important;
+        width: 20% !important;
+        display: flex;
+        border-radius: 1rem;
+        background: url(/_next/static/media/ggs.5b867cf5.jpeg);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .buttonServise {
+        display: flex !important;
+        display: none !important;
+    }
+}
+
+@media (max-width:1396px) {
+    .widthServise {
+        width: 100rem;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: none !important;
+    }
+}
+
+@media (max-width:1302px) {
+    .widthServise {
+        width: 100rem;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 14rem !important;
+    }
+}
+
+@media (max-width:1204px) {
+    .widthServise {
+        width: 100rem;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 18rem !important;
+    }
+
+    .cardDiv {
+        height: 25vh !important;
+        width: 15% !important;
+        display: flex;
+        border-radius: 1rem;
+        background: url(/_next/static/media/ggs.5b867cf5.jpeg);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width:1126px) {
+    .widthServise {
+        display: none !important;
+    }
+
+    .FlexI {
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:986px) {
+    .buttonColor {
+        display: none !important;
+    }
+
+    .bord1 {
+        position: relative;
+    }
+
+    .borderText {
+        display: none;
+    }
+
+}
+
+@media (max-width:742px) {
+    .FlexI {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .force {
+        margin-top: 2rem;
+      }
+      .textQ p {
+        font-size: 2rem !important;
+      }
+      .Qukly p {
+        font-size: 1.3rem !important; 
+      }
+      .home-text p {
+        font-size: 2rem !important;
+      }
+      .text-Q {
+        margin-left: 0rem !important;
+      }
+}
+
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
