@@ -5,8 +5,15 @@ import './CardPiople.css'
 import { Nunito } from 'next/font/google';
 import { useRef, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import { TiArrowBack } from "react-icons/ti";
+import { TiArrowForward } from "react-icons/ti";
 
 type CardT = Idata & { originalI: number }
+interface Style {
+    bordar: string,
+    position: string
+}
 
 const NunitoFont: NextFont = Nunito({
     subsets: ['latin'],
@@ -21,6 +28,8 @@ const NunitoFontTwo: NextFont = Nunito({
 const CardPiople: React.FC = () => {
     const [itemUse, setItem] = useState<string[]>([]);
     const [ageUse, setAge] = useState<number[]>([]);
+    const [clickStyle, setClickStyle] = useState<Style | string>();;
+    const [click, setClick] = useState<number>(1);
 
     const unique: string[] = data
         .map(item => item.position)
@@ -46,16 +55,19 @@ const CardPiople: React.FC = () => {
         }
     };
 
-
-    const filteredData:CardT[] = data.map((card, index: number) => ({ ...card, originalI: index }))
+    const clickS = () => {
+        setClick(clicks => clicks + 1)
+    }
+    const filteredData: CardT[] = data.map((card, index: number) => ({ ...card, originalI: index }))
         .filter(card =>
             (itemUse.length === 0 || itemUse.includes(card.position)) &&
             (ageUse.length === 0 || ageUse.includes(card.age))
         );
 
+
     return (
         <div className='CardFilter'>
-            <div className="filter">
+            <div className={click % 2 === 0 ? "filter1" : "filter"}>
                 <div className="FontN">
                     <p className={NunitoFontTwo.className}>
                         Profession:
@@ -86,8 +98,18 @@ const CardPiople: React.FC = () => {
                         ))}
                     </select>
                 </div>
+
+
             </div>
+
             <div className="cardC">
+                <div className="">
+                    <div className="butClick">
+                        <button onClick={clickS} className='buttonClics'>
+                            {click % 2 === 0 ? <TiArrowForward /> : <TiArrowBack />}
+                        </button>
+                    </div>
+                </div>
                 <div className="cardP">
                     {filteredData.map((card: CardT, index: number) => {
                         const imageUrl: string = card.image?.src;

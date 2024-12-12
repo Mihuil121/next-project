@@ -5,6 +5,35 @@
 
 .filter {
     position: fixed;
+    height: 50vh;
+}
+
+.filter1{
+    opacity: 0;
+    width: 0rem;
+    margin-right: -10rem;
+    
+}
+
+.butClick {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    bottom: 0; 
+    left: -55rem; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.buttonClics{
+    border: #00000000;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 4rem;
+    border-radius: 50rem;
+    background-color: #70a9ff;
 }
 
 .labelP {
