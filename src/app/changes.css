@@ -309,6 +309,7 @@ body {
     .content-p-min {
         width: 15rem !important;
     }
+
     .spon-content p {
         font-size: 1.5rem !important;
         color: aliceblue;
@@ -316,22 +317,379 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-      }
+    }
 }
 
 
 @media (max-width:368px) {
     .content-p-min {
         width: 10rem !important;
-      }
-      .content-about {
+    }
+
+    .content-about {
         display: flex;
         justify-content: center;
         height: 35vh !important;
         align-items: center;
-      }
-      .about-flex {
+    }
+
+    .about-flex {
         background-color: #f6f4ef;
         height: 20rem;
-      }
+    }
+}
+
+@media (max-width:1780px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 10rem !important;
+    }
+}
+
+@media (max-width:1654px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 15rem !important;
+    }
+}
+
+
+@media (max-width:1582px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 20rem !important;
+    }
+}
+
+@media (max-width:1490px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 25rem !important;
+    }
+}
+
+@media (max-width:1420px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 30rem !important;
+    }
+}
+
+@media (max-width:1330px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 35rem !important;
+    }
+
+    .cardBack {
+        width: 19% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 20% !important;
+        height: 24rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:1252px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 40rem !important;
+    }
+
+    .cardBack {
+        width: 19% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 20% !important;
+        height: 24rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:1174px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 45rem !important;
+    }
+
+    .cardBack {
+        width: 19% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 20% !important;
+        height: 24rem;
+        cursor: pointer;
+    }
+
+    .description {
+        background: #a5a5a59c;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+        width: 11rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .informClass p {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width:1094px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 50rem !important;
+    }
+
+    .description {
+        font-size: 0.7rem;
+        width: 9rem;
+    }
+}
+
+@media (max-width:1016px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 55rem !important;
+    }
+
+    .description {
+        font-size: 0.7rem;
+        width: 9rem;
+    }
+}
+
+@media (max-width:938px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 56rem !important;
+    }
+
+    .description {
+        font-size: 0.7rem;
+        width: 9rem;
+    }
+
+    .cardBack {
+        width: 60% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 65% !important;
+        height: 25rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:884px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 65rem !important;
+    }
+
+    .description {
+        font-size: 0.7rem;
+        width: 9rem;
+    }
+
+    .cardBack {
+        width: 60% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 65% !important;
+        height: 25rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:746px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 15rem !important;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 75rem !important;
+
+    }
+
+    .description {
+        font-size: 0.7rem;
+        width: 9rem;
+    }
+
+    .cardBack {
+        width: 60% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 65% !important;
+        height: 25rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:596px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 15rem !important;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 85rem !important;
+
+    }
+
+    .description {
+        font-size: 0.7rem;
+        width: 9rem;
+    }
+
+    .cardBack {
+        width: 60% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 65% !important;
+        height: 25rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:442px) {
+    .buttonClics {
+        border: #00000000;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 15rem !important;
+        border-radius: 50rem;
+        background-color: #70a9ff;
+        margin-left: 95rem !important;
+
+    }
+
+    .description {
+        font-size: 0.7rem;
+        width: 9rem;
+    }
+
+    .cardBack {
+        width: 85% !important;
+        background-color: #d8d8d8;
+        border-radius: 1rem;
+        margin: 2rem;
+        height: 23rem;
+        transition: width 0.3s, height 0.3s;
+    }
+
+    .cardBack:hover {
+        width: 65% !important;
+        height: 25rem;
+        cursor: pointer;
+    }
 }
