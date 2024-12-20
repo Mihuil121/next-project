@@ -29,7 +29,7 @@ export default function Piople({ params }: { params: { piopleId: number } }) {
                     </div>
                 </div>
             </div>
-            <div className="description">
+            <div className="description-Id">
                 <div className="description-p">
                     <div className="Description">
                         <p>
